@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Multiplas Imagens com tamanhos de telas diferentes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <H1>Imagem Dinâmica</H1>
+        <p>Tente abrir esse site em vários dispositivos diferentes ou aumente e diminua o tamanho do seu navegador.</p>
+
+        <picture>
+            <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+            <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+            <img src="imagens/foto-g.png" alt="Imagem Flexível">
+        </picture>    
+
+    <H1>Reproduzindo Áudios</H1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <audio src="midia/Oh Fire-CarmenMaríaandEduEspinal.mp3" controls  autoplay></audio> <!--MP3 WAV OGG-->
+   <!-- <audio>
+        <source src="midia/Oh Fire-CarmenMaríaandEduEspinal.mp3" type="audio/mpeg">
+        <source src="midia/Oh Fire-CarmenMaríaandEduEspinal.ogg" type="audio/ogg">
+        <source src="midia/Oh Fire-CarmenMaríaandEduEspinal.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio.
+        <a href="midia/Oh Fire-CarmenMaríaandEduEspinal.mp3">Clique aqui para baixar a música</a>.</p>
+    </audio>-->
+
+    <H1>Inserindo videos hoespedados localmente</H1>
+    <p>Esses videos está hospedado no meu proprio servidor</p>
+    <video src="midia/ssstwitter.com_1690754203057.mp4" width="200" controls></video><!--FAzer o mesmo que foi feito com o audio. Criar Sources com cada um dos formatos de videos para garantir a execução em navegadores diferentes. Do arquivo menos para o maior-->
+    <video src="midia/Microsoft Flight Simulator (3).mp4" width="400" controls autoplay loop></video>
+
+    <H1>Inserindo videos de serviços de hospedagem de videos</H1>
+
+    <p>Esse videos está hospedado no youtube</p>
+    <iframe width="640" height="360" src="https://www.youtube.com/embed/LW0bhKitRBk?si=ejSoBQV-yjSPNHc3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    
+    <p>Esse video está hospedado no vimeo</p>
+    <iframe src="https://player.vimeo.com/video/859060369?h=43feee91bc&autoplay=1&loop=1&color=fefefe" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/859060369">AUDREY NUNA - LOCKET</a> from <a href="https://vimeo.com/valentinpetit">valentin petit</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+<p>Esse video está hospedado no Tiktok</p>
+<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@vanderlyxd/video/7202622280235633925" data-video-id="7202622280235633925" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@vanderlyxd" href="https://www.tiktok.com/@vanderlyxd?refer=embed">@vanderlyxd</a> Esse furacao tava brabo! <a title="jogos" target="_blank" href="https://www.tiktok.com/tag/jogos?refer=embed">#jogos</a> <a title="avioes" target="_blank" href="https://www.tiktok.com/tag/avioes?refer=embed">#avioes</a> <a title="flightsimulator" target="_blank" href="https://www.tiktok.com/tag/flightsimulator?refer=embed">#flightsimulator</a> <a target="_blank" title="♬ som original - Vander" href="https://www.tiktok.com/music/som-original-7202622316034280197?refer=embed">♬ som original - Vander</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+
+
+</body>
+</html>

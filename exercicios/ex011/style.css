@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+Body{
+    background-color: black;
+    font-size: x-large;
+    color: white;
+    }
+    h1{
+        color: whitesmoke;
+        background-color: rgb(17, 17, 192);
+    }
+    p{
+        color: #ffffff;
+        background-color: rgb(85, 51, 38);
+    }
