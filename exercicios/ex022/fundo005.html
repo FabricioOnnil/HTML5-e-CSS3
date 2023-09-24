@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fundo</title>
+    <title>Fundo fixo de Tela</title>
     <style>
         body {
             height: 100vh;
@@ -12,12 +12,17 @@
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;
+
+            /* Shorthand - background 
+             background: color> image > position > repeat > size > attachament;
+             */
 
         }
 
         main {
                 background-color: white;
-                width: 400px;
+                max-width: 400px;
                 padding: 10px;
                 margin: auto;
                 border: 1px solid darkblue;
@@ -30,6 +35,7 @@
     <main>
         <h1>TESTE DE IMAGEM DE FUNDO</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi dolor esse rerum consequuntur, quo unde aliquid repellat mollitia odio repudiandae optio, sit dolores veritatis tempore nulla deleniti iure Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima vero inventore beatae provident rerum repellendus. Inventore illum sequi consectetur dolorem quod debitis consequatur ea voluptate non, molestiae provident, delectus nobis?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus nemo inventore dolorem tempora quibusdam dignissimos vitae atque, voluptates consequuntur eos veritatis, voluptas ipsa provident quam. Quia soluta nostrum harum Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores delectus nihil, natus facilis ut error quidem debitis velit repellat vel amet accusantium, officia impedit! Ullam maxime tenetur veniam voluptate libero?</p>
     </main>
     
 </body>
