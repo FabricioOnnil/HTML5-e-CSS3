@@ -11,14 +11,14 @@
 }
 
 * {
-    margin: 0px;
+    margin: 10px;
     padding: 0px;
     font-size: 1em;
   }
 
 html, body {
     min-height: 100vh;
-    background-color: dark;
+    background-image: linear-gradient(to bottom, rgb(107, 8, 8), rgb(43, 3, 3), rgb(121, 38, 121));
     font-family: var(--fonte1);
            }
 
@@ -54,30 +54,56 @@ section {
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
-    padding-left: 30px;
+    padding-left: 70px;
     font-family: var(--fonte3);
     font-size: 3.5vw;
         }
 
 section.normal {
-    background-color: white;
-    color: black;
+    padding: 90px;
+    background-color: rgba(255, 255, 255, 0.205);
+    color: whitesmoke;
                }
 
 section.imagem {
     background-color: blueviolet;
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.685);
+    background-size: cover;
+    background-attachment: fixed;
                }
 
 section.imagem > p {
     display: inline-block;
-    padding: 5px;
-    background-color: rgba(0, 0, 0, 0.116);
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.493);
+    text-shadow: 1px 1px 0px black;
 }
 
+section#img01 {
+    background-image: url("imagens/amor\ ideal\ beijo.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;    
+}
+
+section#img02 {
+    background-image: url("imagens/maos\ dadas.jpg");
+    background-repeat: no-repeat;    
+}
+
+section#img03 {
+    background-image: url("imagens/Banco.jpeg");
+    background-position: left center;
+    background-repeat: no-repeat;       
+}
 p.informe {
-            text-align: center;
-            padding-bottom: 15px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: var(--fonte1);
+    font-size: large;
+    background-image: linear-gradient(to left, rgb(87, 2, 87), rgb(100, 1, 100), purple);
+    color: azure; 
 
 }
 
