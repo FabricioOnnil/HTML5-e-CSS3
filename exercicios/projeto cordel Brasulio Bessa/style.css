@@ -75,6 +75,12 @@ section.imagem > p {
     background-color: rgba(0, 0, 0, 0.116);
 }
 
+p.informe {
+            text-align: center;
+            padding-bottom: 15px;
+
+}
+
 footer {
     background-color: black;
     color: white;
