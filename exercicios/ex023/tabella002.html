@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            height: 400px;
+            border: 1px solid black;
+            border-collapse: collapse;     
+        }
+        
+        thead, tfoot {
+            background-color: gray;
+            color: black;
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center; /* alinhamento horizontal*/
+            vertical-align: middle; /* alinhamento vertical*/
+        }
+        .num {
+            text-align: right;
+        }
+    </style>
+</head>
+<body> 
+
+    <h1>Tabelas Grandes</h1>
+        <!-- 
+        Anatomia para Tabelas Grandes
+        Thead
+        Tr Td Th
+        Tbody
+        Tr Td Th
+        Tfoot
+        Tr Td Th
+    -->
+    <table>
+        <thead>
+            <tr>
+                <th class="dois">Estado</th>
+                <th>População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="dois">São Paulo</td>
+                <td class="num">44.420.459</td>
+            </tr>
+            <tr>
+                <td class="dois">Minas Gerais</td>
+                <td class="num">20.538.718</td>
+            </tr>
+            <tr>
+                <td class="dois">Rio de Janeiro</td>
+                <td class="num">15.989.929</td>
+            </tr>
+            <tr>
+                <td class="dois">Bahia</td>
+                <td class="num">14.136.417</td>
+            </tr>
+            <tr>
+                <td class="dois">Paraná</td>
+                <td class="num">11.443.208</td>
+            </tr>
+            <tr>
+                <td class="dois">Rio Grande do Sul</td>
+                <td class="num">10.880.506</td>
+            <tr>
+                <td class="dois">Pernambuco</td>
+                <td class="num">9.058.155</td>
+            </tr>
+            <tr>
+                <td class="dois">Ceará</td>
+                <td class="num">8.791.688</td>
+            </tr>
+            <tr>
+                <td class="dois">Pará</td>
+                <td class="num">8.116.132</td>
+            </tr>
+            <tr>
+                <td class="dois">Santa Catarina</td>
+                <td class="num">7.609.601</td>
+            </tr>
+            
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total de Habitantes</th>
+                <td><strong>203.062.512</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+    
+</body>
+</html>
