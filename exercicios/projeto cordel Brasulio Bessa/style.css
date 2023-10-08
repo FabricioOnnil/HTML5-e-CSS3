@@ -20,14 +20,14 @@ html, body {
     min-height: 100vh;
     background-image: linear-gradient(to bottom, rgb(107, 8, 8), rgb(43, 3, 3), rgb(121, 38, 121));
     font-family: var(--fonte1);
-           }
+    }
 
 header {
     background-color: black;
     color: white;
     text-align: center;
     
-       }
+    }
 
 header > h1 {
     padding-top: 50px;

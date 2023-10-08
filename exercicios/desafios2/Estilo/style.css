@@ -80,7 +80,7 @@ nav > a {
          transition-duration: 0.4s;
         }
 
-nav >a:hover {
+nav > a:hover {
               background-color: var(--cor4);
               color: var(--cor5);
              }
